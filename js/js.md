@@ -1,0 +1,1 @@
+# I will put js documents in this folder
