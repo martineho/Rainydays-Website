@@ -1,0 +1,35 @@
+
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.herotop h1 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.cta-button-white {
+    display: inline-block;
+    background-color: white;
+    width: 200px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: black;
+    margin: 2px;
+    -webkit-box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.14);
+    -moz-box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.14);
+    box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.14);
+}
