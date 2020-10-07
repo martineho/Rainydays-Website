@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+    <body>
+        <header>
+            <a href="index.html"><img src="" alt="logo"></a>
+
+            <nav class="navbar" aria-label="main-nav"> 
+                <ul> 
+                    <li><a href="men-home.html">Men</a></li>
+                    <li><a href="men-home.html">Women</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-search">
+                <button>Search</button> 
+                <input type="search" id="site-search" name="q" aria-label="Search through site content">
+            </div>
+
+            <div class="nav-icon-menu">
+                <ul class="nav-icon">
+                    <li class="icon-item"><a href="myaccount.html">profile</a></li>
+                    <li class="icon-item"><a href="wishlist.html">love</a></li>
+                    <li class="icon-item"><a href="cart.html">cart</a></li>
+                </ul>
+            </div>
+
+            <div class="information-banner checkout">
+                <p>You are now at checkout</p>
+            </div>
+        </header>
+
+
+
+        <main> 
+
+            <section class="order-summary left">
+                <div class="container">
+                    <h3>1. Order Summary </h3>
+    
+                    <img class="product-image"> 
+                   
+                    <div class="product-info">
+                        
+                        <span><h4>Men's HIKE pro</h4></span>
+
+                        <p>Colour Yellow</p>
+                        <p>Size Medium</p>
+
+                        <div class="dropdown">
+                            <span class="current-value"></span>
+                            <span></span>
+                            <select aria-label="You have one of these in your shopping bag" class="dropdown-control">
+                                <option class="selected-value">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            <h4>NOK 1300</h4>
+                        </div>
+                        
+                    </div>
+                    <div class="underline"></div>
+
+                    <span class="descriptive-text">1 Item(s)</span>
+                    <span class="descriptive-text">NOK 1.300.00</span>
+                    <span class="descriptive-text">Shipping</span>
+                    <span class="descriptive-text">FREE</span>
+                    <span class="descriptive-text bold">Total inclusive Shipping</span>
+                    <span class="descriptive-text bold">NOK 1.300.00</span>
+
+                    <div class="underline"></div>
+
+                    <label>Personal Code/Voucher? </label>
+                    <input type="code" id="voucher-input" name="q" aria-label="Enter Code"> 
+                    <button>Add</button> 
+    
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+        <section class="checkout-process right">
+    
+            <h3>2. Delivery Options</h3>
+
+            <label class="container">Pickup in postal office
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              
+              <label class="container">Home Delivery
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <p>Estimated delivery: 1-4 days</p>
+            
+
+            <div class="underline"></div>
+
+            <h3>3. Payment Methods</h3>
+
+            <label class="container">Klarna
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              
+              <label class="container">Visa / Mastercard
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+
+              <label class="container">Vipps
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Paypal
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+
+            <div class="underline"></div>
+
+            <h3>4. Delivery Address</h3>
+
+                <label>First Name</label>
+                <input type="text" id="first-name" name="q" aria-label="first name"> 
+                
+                <label>Last Name</label>
+                <input type="text" id="last-name" name="q" aria-label="last name"> 
+                
+                <label>Street address</label>
+                <input type="text" id="address" name="q" aria-label="address"> 
+                
+                <label>Postal Code</label>
+                <input type="text" id="postal-code" name="q" aria-label="postal code"> 
+                
+                <label>City</label>
+                <input type="text" id="city" name="q" aria-label="city"> 
+                
+
+                <label>Email</label>
+                <input type="email" id="email" name="q" aria-label="email"> 
+                <select aria-label="What do you need help with?" class="dropdown-control help">
+                    <option class="selected-value">Defect product</option>
+                    <option value="2">Return</option>
+                    <option value="3">Warranty</option>
+                </select>
+                
+                <label>Phone Number</label>
+                <select aria-label="county code" class="dropdown-control country-code">
+                    <option class="selected-value">+ 47</option>
+                    <option value="2">+ 46</option>
+                    <option value="3">+ 49</option>
+                    <option value="3">+ 50</option>
+                </select>
+                <input type="number" id="phone" name="q" aria-label="phone number">
+
+            <div class="underline"></div>
+
+            <span class="descriptive-text bold">Total inclusive Shipping</span>
+            <span class="descriptive-text bold">NOK 1.300.00</span>
+            <a class="cta-button blue" href="">Continue to payment</a>
+        </section>
+
+
+        <footer>
+
+            <div class="container">
+                <div class="card">
+                    <img src="" alt="logo">
+                    <label>Subscribe to our newletter</label>
+                    <input type="email" id="subscribe-to" name="q" aria-label="subscribe to newletter"> 
+                    <button>Submit</button> 
+                </div>
+                <div class="card">
+                    <h5>About</h5>
+                    <ul>
+                        <li><a href="">About Rainydays</a></li>
+                        <li><a href="">Latest Stories</a></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li><a href="">Customer Service</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Contact form</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="card"><p>©2020 Rainydays, NO 000 000 000 MVA</p></div>
+                 <div class="card"><a href="">Terms and Conditions</a> <a href="">Cookies and Privacy</a></div>
+                <div class="card"> <a href="">ig</a> <a href="">f</a></div>
+            </div>
+
+        </footer>
+
+
+    </body>
+
+
+</html>
