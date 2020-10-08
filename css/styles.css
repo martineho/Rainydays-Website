@@ -13,7 +13,7 @@ h1 {
 }
 
 .herotop {
-    height: 90vh;
+    height: 80vh;
     width: 100vw;
     background-image: url("../images/herotop.jpg");
     background-size: cover;
@@ -23,7 +23,7 @@ h1 {
 } 
 
 .herotop h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: white;
 }
 
