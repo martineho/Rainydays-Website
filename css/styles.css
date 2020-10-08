@@ -10,10 +10,34 @@ h1 {
     font-size: 3rem;
 }
 
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
 h4 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-size: 1rem;
+}
+
+.product-description span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.product-description .price {
+   float: right;
+}
+.card {
+    width: 280px;
 }
 
 .cta-button-white {
@@ -33,3 +57,90 @@ h4 {
     -moz-box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.14);
     box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.14);
 }
+
+
+
+
+.product-colours {
+    margin-bottom: 15px;
+}
+
+.product-colours label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+/* Customize the label (the container) */
+.product-colours .container {
+    display: inline-block;
+    position: relative;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 12px;
+    width: 12px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+#yellow {
+    background-color: rgb(255, 239, 96);
+}
+#khaki {
+    background-color: rgb(81, 104, 44);
+}
+#green {
+    background-color: rgb(98, 196, 68);
+}
+#red {
+    background-color: rgb(230, 76, 38);
+}
+
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    border: solid #707070 1px;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+
+  }
