@@ -5,12 +5,26 @@ body {
 #logo {
     width: 100px;
 }
-
-h1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
+.information-banner {
+    background-color: #1548F7;
+    height: 26px;
+    width: 100vw;
+    text-align: center;
 }
+.information-banner ul {
+    list-style: none;
+    padding-top: 2px;
+}
+.information-banner li {
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 0.7rem;
+    color: white;
+}
+
 
 .herotop {
     height: 80vh;
@@ -19,25 +33,31 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 8%;
 } 
 
 .herotop h1 {
-    font-size: 4rem;
+    font-size: 4.2rem;
     color: white;
-    height: 40px;
+    height: 30px;
 }
 
 .herotop p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: white;
     padding: 20px;
 }
 
 .container {
     padding: 5%;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
 }
 
 h2 {
