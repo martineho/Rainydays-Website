@@ -25,6 +25,7 @@ h1 {
 .herotop h1 {
     font-size: 4rem;
     color: white;
+    padding: 0;
 }
 
 .herotop p {
