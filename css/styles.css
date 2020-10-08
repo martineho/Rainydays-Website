@@ -18,6 +18,7 @@ h1 {
     background-image: url("../images/herotop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 } 
 
 .herotop h1 {
