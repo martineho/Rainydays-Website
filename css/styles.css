@@ -21,7 +21,8 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 80vh;
-    min-width: 100vw;
+    min-width: 100%;
+    margin: 0;
 
 }
 
