@@ -12,6 +12,14 @@ h1 {
     font-size: 2rem;
 }
 
+.herotop {
+    height: 80vh;
+    width: 100vw;
+    background-image: url("../images/herotop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
 .herotop h1 {
     font-size: 3rem;
 }
