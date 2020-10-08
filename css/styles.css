@@ -27,12 +27,11 @@ h1 {
     color: white;
 }
 
-.herotop h4 {
+.herotop p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
     color: white;
-   
 }
 
 .container {
