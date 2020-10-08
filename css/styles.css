@@ -13,6 +13,11 @@ h1 {
     font-size: 3rem;
 }
 
+.herotop {
+    background: cover no-repeat url("/images/herotop_30.jpg");
+    min-height: 80vh;
+}
+
 h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
