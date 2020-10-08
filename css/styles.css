@@ -17,13 +17,10 @@ h1 {
 }
 
 .herotop {
-    background-image: ("../images/herotop_30.jpg");
+    background-image: ("../images/herotop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 80vh;
-    min-width: 100%;
     margin: 0;
-
 }
 
 h2 {
