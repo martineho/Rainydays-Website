@@ -27,6 +27,14 @@ h1 {
     color: white;
 }
 
+.herotop h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+   
+}
+
 .container {
     padding: 5%;
 }
