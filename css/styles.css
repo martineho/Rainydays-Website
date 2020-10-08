@@ -26,6 +26,10 @@ h1 {
     color: white;
 }
 
+.container {
+    padding: 10%;
+}
+
 h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
