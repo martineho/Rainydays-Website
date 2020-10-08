@@ -1,4 +1,7 @@
-
+body {
+    padding: 0;
+    margin: 0;
+}
 #logo {
     width: 100px;
 }
@@ -14,10 +17,12 @@ h1 {
 }
 
 .herotop {
-    background-image: url("../images/herotop.jpg");
+    background-image: ("../images/herotop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 80vh;
+    min-width: 100vw;
+
 }
 
 h2 {
