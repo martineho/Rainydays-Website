@@ -14,7 +14,9 @@ h1 {
 }
 
 .herotop {
-    background: cover no-repeat url("/images/herotop_30.jpg");
+    background-image: url("../images/herotop_30.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 80vh;
 }
 
