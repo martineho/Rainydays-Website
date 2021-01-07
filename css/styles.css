@@ -51,7 +51,7 @@ body {
 }
 
 .container {
-    padding: 5%;
+    padding: 2% 5%;
 }
 
 h1 {
@@ -114,11 +114,30 @@ h6 {
 
 .parrallax {
     height: 80vh;
-    background-image: url(../images/reykjavik.jpg);
+    background-image: url(../images/reykjavik_parrallax.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat
 }
+
+.stories-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 4fr));
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    min-height: 250px;
+}
+.stories-item > h6 {
+    text-align: left;
+}
+.stories-img {
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 1px 2px 12px #c9c9c9;
+}
+
+
+
 
 .cta-button-white {
     display: inline-block;
