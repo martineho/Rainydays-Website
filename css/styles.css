@@ -87,14 +87,19 @@ h4 {
 h6 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 15px;
 }
 .price {
-    text-align: right;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #727272;
 }
 
 .new-items {
-    padding: 2% 5%;
+    padding: 4% 5%;
 } 
 .products{
     display: grid;
@@ -104,8 +109,17 @@ h6 {
     grid-template-rows: auto;
 }
 .products > div {
-    background-color: lemonchiffon;
+    background-color: lightgrey;
 }
+
+.parrallax {
+    height: 80vh;
+    background-image: url(../images/reykjavik.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
 .cta-button-white {
     display: inline-block;
     background-color: white;
@@ -123,5 +137,18 @@ h6 {
     -moz-box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.14);
     box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.14);
 }
-
+.cta-button-black-outline {
+    display: inline-block;
+    width: 200px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: black;
+    margin: 2px;
+    border: solid 2px black;
+}
 
