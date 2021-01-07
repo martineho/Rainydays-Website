@@ -51,7 +51,7 @@ body {
 }
 
 .container {
-    padding: 2% 5%;
+    padding: 3% 5%;
 }
 
 h1 {
@@ -84,6 +84,14 @@ h4 {
     font-weight: 500;
     font-size: 1rem;
 }
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: underline;
+    color: white;
+    margin: 0;
+}
 h6 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -109,14 +117,14 @@ h6 {
     grid-template-rows: auto;
 }
 .products > div {
-    background-color: lightgrey;
+    background-color: white;
 }
 
 .parrallax {
-    height: 80vh;
+    height: 70vh;
     background-image: url(../images/reykjavik_parrallax.jpg);
-    background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat
 }
 
@@ -136,7 +144,52 @@ h6 {
     box-shadow: 1px 2px 12px #c9c9c9;
 }
 
-
+footer {
+    background-color: #3F3F3F;
+    padding-top: 2%;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 40% 15% 15% 15% 15%;
+    background-color: #3F3F3F;
+}
+footer ul, li, a {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: white;
+    padding: 2px 0px;
+}
+label {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: white;
+    display: block;
+    padding-bottom: 10px;
+}
+input {
+    background-color: white;
+    padding: 5px 10px;
+    border: solid white 1px; 
+    border-radius: 5px;
+    outline: inherit;
+    margin: 2px;
+}
+#newsletter button{
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: white;
+    padding: 5px 10px;
+    border: solid white 2px; 
+    border-radius: 5px;
+    outline: inherit;
+    margin: 2px;
+}
 
 
 .cta-button-white {
