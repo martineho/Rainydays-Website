@@ -247,16 +247,22 @@ footer .card input {
 
 @media only screen and (max-width: 600px) {
     .footer {
-        display: grid;
-        grid-template-columns: auto;
-        text-align: center;
-        padding-top: 5vh;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    padding-top: 6vh;
     }
     #newsletter, #men, #women, #logo2 {
-        display: none;
+    display: none;
     }
-
-
+    #copyright {
+    text-align: center;
+    margin-top: 2vh; 
+    margin-bottom: 2vh;
+    }
+    #some {
+    margin-bottom: 5vh;
+}
 
 
 
