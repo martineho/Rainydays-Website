@@ -244,10 +244,17 @@ footer .card input {
     border: solid 2px black;
 }
 
-@media (min-width: 600px) and (max-width: 1200px) {
-    #newsletter {
+@media only screen and (max-width: 600px) {
+    .footer {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        padding-top: 5vh;
+    }
+    #newsletter, #men, #women, #logo2 {
         display: none;
     }
+
 
 
 
