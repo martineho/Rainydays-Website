@@ -97,7 +97,7 @@ h6 {
     font-weight: 600;
     font-size: 1.1rem;
     text-align: center;
-    margin: 15px;
+    margin: 10px 5px;
 }
 .price {
     text-align: center;
@@ -113,7 +113,7 @@ h6 {
     display: grid;
     grid-gap: 2rem;
     min-height: 400px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, auto));
     grid-template-rows: auto;
 }
 .products > div {
@@ -154,7 +154,7 @@ footer {
     grid-template-columns: 40% 15% 15% 15% 15%;
     background-color: #3F3F3F;
 }
-footer ul, li, a {
+footer .card ul, li, a {
     list-style: none;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
@@ -163,11 +163,14 @@ footer ul, li, a {
     color: white;
     padding: 2px 0px;
 }
+footer .card ul, li, a:hover {
+    color: rgba(255, 255, 255, 0.664); 
+}
 footer #logo2{
     width: 120px;
     margin-bottom: 30px;
 } 
-.bottomtext {
+footer .bottomtext {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -175,7 +178,7 @@ footer #logo2{
     color: white;
     padding: 0px 0px;
 }
-label {
+footer .card label {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 0.8rem;
@@ -183,18 +186,24 @@ label {
     display: block;
     padding-bottom: 10px;
 }
-input {
+footer .card input {
     background-color: transparent;
-    padding: 5px 10px;
-    border: solid rgba(255, 255, 255, 0.932) 1px; 
+    padding: 8px 12px;
+    border: solid rgba(255, 255, 255, 0.836) 1px; 
     border-radius: 8px;
     outline: inherit;
-    margin: 2px;
+    margin-right: 3px;
+    font-weight: 500;
+    font-size: 0.6rem;
+    letter-spacing: 0.3px;
+    color: rgba(255, 255, 255, 0.836);
+
 }
+
 #newsletter button{
     background-color: transparent;
     font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 0.6rem;
     color: white;
     padding: 7px 14px;
@@ -203,8 +212,6 @@ input {
     outline: inherit;
     margin: 2px;
 }
-
-
 .cta-button-white {
     display: inline-block;
     background-color: white;
@@ -237,3 +244,15 @@ input {
     border: solid 2px black;
 }
 
+@media (min-width: 600px) and (max-width: 1200px) {
+    #newsletter {
+        display: none;
+    }
+
+
+
+
+
+
+
+}
