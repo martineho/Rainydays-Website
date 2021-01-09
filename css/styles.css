@@ -200,8 +200,7 @@ footer .card input {
     color: rgba(255, 255, 255, 0.836);
 
 }
-
-#newsletter button{
+footer #newsletter button{
     background-color: transparent;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -212,6 +211,11 @@ footer .card input {
     border-radius: 8px;
     outline: inherit;
     margin: 2px;
+}
+#copyright {
+    margin-top: 0; 
+    margin-bottom: 0;
+    color: rgb(202, 202, 202);
 }
 .cta-button-white {
     display: inline-block;
@@ -245,7 +249,10 @@ footer .card input {
     border: solid 2px black;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 980px) {
+    #stitem-2, #stitem-3 {
+        display: none;
+    }
     .footer {
     display: grid;
     grid-template-columns: auto;
@@ -257,16 +264,62 @@ footer .card input {
     }
     #copyright {
     text-align: center;
-    margin-top: 2vh; 
+    margin-top: 5vh; 
     margin-bottom: 2vh;
     }
     #some {
     margin-bottom: 5vh;
 }
-
-
-
-
-
-
+}
+@media only screen and (max-width: 450px) {
+    .herotop {
+        height: 80vh;
+        background-image: url("../images/herotop.jpg");
+        padding-top: 6%;
+    } 
+    
+    .herotop h1 {
+        margin-bottom: 15px;
+        height: auto;
+    }
+    .herotop p {
+        padding: 20px;
+    }
+    .information-banner {
+        height: 73px;
+        text-align: center;
+    }
+    .information-banner ul {
+        list-style: none;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    .information-banner li {
+        display: block;
+        padding-left: 0%;
+        padding-right: 5%;
+        }
+    .stories-wrapper {
+        grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+        padding-top: 0px;
+        margin-left: 0;
+        padding-bottom: 5vh;
+    }
+    h3 {
+        text-align: left;
+    }
+    .stories-item > h6 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.1rem;
+        margin: 5px 5px;
+    }
+    #stitem-1 > img {
+        scale: 0.90;
+        margin-left: 10px;
+    }
+    #stitem-2, #stitem-3 {
+        display: none;
+    }
+}
 }
