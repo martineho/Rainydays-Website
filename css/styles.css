@@ -96,11 +96,12 @@ h6 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 1.1rem;
-    text-align: center;
+    text-align: left;
     margin: 10px 5px;
 }
 .price {
-    text-align: center;
+    float: right;
+    text-align: right;
     font-weight: 500;
     font-size: 0.9rem;
     color: #727272;
@@ -113,7 +114,7 @@ h6 {
     display: grid;
     grid-gap: 2rem;
     min-height: 400px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 4fr));
     grid-template-rows: auto;
 }
 .products > div {
@@ -222,7 +223,7 @@ footer #newsletter button{
     background-color: white;
     width: 200px;
     padding: 10px 0px;
-    border-radius: 5px;
+    border-radius: 7px;
     text-align: center;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -238,7 +239,7 @@ footer #newsletter button{
     display: inline-block;
     width: 200px;
     padding: 10px 0px;
-    border-radius: 5px;
+    border-radius: 7px;
     text-align: center;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -250,6 +251,9 @@ footer #newsletter button{
 }
 
 @media only screen and (max-width: 980px) {
+    .herotop {
+        height: 60vh;
+    } 
     #stitem-2, #stitem-3 {
         display: none;
     }
@@ -270,20 +274,36 @@ footer #newsletter button{
     #some {
     margin-bottom: 5vh;
 }
+.information-banner {
+    height: 73px;
+    text-align: center;
+}
+.information-banner ul {
+    list-style: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.information-banner li {
+    display: block;
+    padding-left: 0%;
+    padding-right: 5%;
+}
 }
 @media only screen and (max-width: 450px) {
     .herotop {
         height: 80vh;
-        background-image: url("../images/herotop.jpg");
+        background-position: center;
         padding-top: 6%;
     } 
-    
     .herotop h1 {
         margin-bottom: 15px;
         height: auto;
     }
     .herotop p {
         padding: 20px;
+    }
+    .cta-button-white {
+    margin-bottom: 10px;
     }
     .information-banner {
         height: 73px;
@@ -298,12 +318,30 @@ footer #newsletter button{
         display: block;
         padding-left: 0%;
         padding-right: 5%;
-        }
+    }
+    .products{
+        grid-template-columns: auto;
+        padding: 5% 8% 5% 5%;
+    }
+    #newitem-2, #newitem-3, #newitem-4 {
+        display: none;
+    }  
+
+    .parrallax {
+        height: 80vh;
+        background-position: left;
+    }
+    .parrallax .container {
+       padding-top: 5vh;
+    }
     .stories-wrapper {
-        grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+        grid-template-columns: auto;
         padding-top: 0px;
-        margin-left: 0;
-        padding-bottom: 5vh;
+        margin: auto auto;
+    }
+    #stitem-1 > img {
+        scale: 0.92;
+        margin-left: -2%;
     }
     h3 {
         text-align: left;
@@ -313,10 +351,6 @@ footer #newsletter button{
         font-weight: 500;
         font-size: 1.1rem;
         margin: 5px 5px;
-    }
-    #stitem-1 > img {
-        scale: 0.90;
-        margin-left: 10px;
     }
     #stitem-2, #stitem-3 {
         display: none;
