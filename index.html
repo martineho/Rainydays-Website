@@ -6,26 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
     <body>
         <header>
+
+            <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="hamburger-menu">
+
+            <span class="nav-icon-menu">
+                <li class="nav-icon"><a class="icon-item" href="myaccount.html"><img id="profile-icon" src="../Rainydays-Website/images/profile-icon.svg" alt="profile-icon"></a></li>
+                <li class="nav-icon"><a class="icon-item" href="wishlist.html"><img id="heart-icon" src="../Rainydays-Website/images/heart-icon.svg" alt="heart-icon"></a></li>
+                <li class="nav-icon"><a class="icon-item" href="cart.html"><img id="cart-icon" src="../Rainydays-Website/images/cart-icon.svg" alt="cart-icon"></a></li>
+            </span>
+
+            <div id="hamburger-nav">
+                <ul> 
+                    <li ><a class="nav-item" href="">Men</a></li>
+                    <li ><a class="nav-item" href="">Women</a></li>
+                    <li ><a class="nav-item" href="">About</a></li>
+                    <li ><a class="nav-item" href="">Contact</a></li>
+                </ul>
+                <div class="searchbar">
+                    <button><img id="search-icon" src="../Rainydays-Website/images/search-icon.svg" alt="search-icon"></button> 
+                    <input 
+                    type="search" 
+                    id="site-search" 
+                    name="q" 
+                    aria-label="Search through site content"
+                    value="Search">
+                </div>
+            </div>
+
+
             <nav id="navbar" aria-label="main-nav"> 
                 <a class="nav-logo" href="index.html"><img id="logo" src="../Rainydays-Website/images/logo.png" alt="logo"></a>
                 <ul class="main-nav"> 
-                    <li class="navbar"><a class="nav-item" href="men-home.html">Men</a></li>
-                    <li class="navbar"><a class="nav-item" href="men-home.html">Women</a></li>
-                    <li class="navbar"><a class="nav-item" href="about.html">About</a></li>
-                    <li class="navbar"><a class="nav-item" href="contact.html">Contact</a></li>
-                    <span class="header-search">
-                        <button>Search</button> 
-                        <input type="search" id="site-search" name="q" aria-label="Search through site content">
-                    </span>
+                    <li class="navbar"><a class="nav-item" href="">Men</a></li>
+                    <li class="navbar"><a class="nav-item" href="">Women</a></li>
+                    <li class="navbar"><a class="nav-item" href="">About</a></li>
+                    <li class="navbar"><a class="nav-item" href="">Contact</a></li>
+            
                     <span class="nav-icon-menu">
-                        <li class="nav-icon"><a class="icon-item" href="myaccount.html"><img id="profile-icon" src="../Rainydays-Website/images/profile-icon.svg" alt="profile-icon"></a></li>
-                        <li class="nav-icon"><a class="icon-item" href="wishlist.html"><img id="heart-icon" src="../Rainydays-Website/images/heart-icon.svg" alt="heart-icon"></a></li>
-                        <li class="nav-icon"><a class="icon-item" href="cart.html"><img id="cart-icon" src="../Rainydays-Website/images/cart-icon.svg" alt="cart-icon"></a></li>
+                        <li class="nav-icon"><a class="icon-item" href=""><img id="profile-icon" src="../Rainydays-Website/images/profile-icon.svg" alt="profile-icon"></a></li>
+                        <li class="nav-icon"><a class="icon-item" href=""><img id="heart-icon" src="../Rainydays-Website/images/heart-icon.svg" alt="heart-icon"></a></li>
+                        <li class="nav-icon"><a class="icon-item" href=""><img id="cart-icon" src="../Rainydays-Website/images/cart-icon.svg" alt="cart-icon"></a></li>
+                    </span>
+                    <span class="header-search">
+                        <button><img id="search-icon" src="../Rainydays-Website/images/search-icon.svg" alt="search-icon"></button> 
+                        <input 
+                        type="search" 
+                        id="site-search" 
+                        name="q" 
+                        aria-label="Search through site content"
+                        value="Search">
                     </span>
                 </ul>
             </nav>

@@ -33,10 +33,6 @@ nav {
     color: black;
     padding: 5px 15px;
 }
-.header-search {
-    float: right;
-    margin-right: 5%;
-}
 .nav-icon-menu {
     float: right;
     margin-right: 3%;
@@ -55,13 +51,40 @@ nav {
 #profile-icon, #heart-icon, #cart-icon {
     width: 20px;
 }
+.header-search {
+    float: right;
+    margin-right: 5%;
+    padding-bottom: 3px;
+    border-bottom: 2px black solid;
+} 
+#search-icon {
+    width: 18px;
+}
+button {
+    background-color: transparent;
+    border: none;
+    outline: inherit;
+}
+input {
+    background-color: transparent;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 3px 12px;
+    outline: inherit;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0.3px;
+    color: rgb(131, 131, 131);
+}
 
 .information-banner {
     background-color: #1548F7;
     height: 26px;
     width: 100vw;
     text-align: center;
-    margin-top: 65px;
+    margin-top: 45px;
 }
 .information-banner ul {
     list-style: none;
@@ -301,8 +324,47 @@ footer #newsletter button{
     margin: 2px;
     border: solid 2px black;
 }
+#hamburger-nav {
+    display: none;
+}
+@media only screen and (max-width: 1050px) {
+    nav {
+        display: none;
+    }
+    #hamburger-nav {
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .nav-item {
+        padding-top: 5px;
+    }
+    .nav-icon {
+       margin-top: 20px;
+    }
+    i {
+        margin: 5% 5% 2% 5%;
+    }
+    #hamburger-menu{
+        display: none;
+    }
+    
+    #hamburger-menu:checked ~ #hamburger-nav {
+        display: block;
+    }
+    .searchbar {
+        display: inline;
+        margin-top: 20px;
+        margin-left: 12%;
+        border-bottom: 2px solid black;
+        padding-bottom: 5px;
+    }
+    input {
+        width: 150px;
+    }
+}
 
 @media only screen and (max-width: 980px) {
+
     .herotop {
         height: 60vh;
     } 
@@ -326,16 +388,17 @@ footer #newsletter button{
     #some {
     margin-bottom: 5vh;
 }
-.information-banner {
+    .information-banner {
     height: 73px;
     text-align: center;
+    margin-top: 0px;
 }
-.information-banner ul {
+    .information-banner ul {
     list-style: none;
     padding-top: 7px;
     padding-bottom: 7px;
 }
-.information-banner li {
+    .information-banner li {
     display: block;
     padding-left: 0%;
     padding-right: 5%;
