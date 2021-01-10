@@ -189,6 +189,9 @@ h6 {
 .new-items {
     padding: 4% 5%;
 } 
+#newitem-1, #newitem-2, #newitem-3, #newitem-4 {
+    width: 300px;
+}
 .products{
     display: grid;
     grid-gap: 2rem;
