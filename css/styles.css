@@ -33,6 +33,10 @@ nav {
     color: black;
     padding: 5px 15px;
 }
+.nav-item:hover {
+    color: black;
+    font-weight: 600;
+}
 .nav-icon-menu {
     float: right;
     margin-right: 3%;
@@ -309,6 +313,12 @@ footer #newsletter button{
     -webkit-box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.14);
     -moz-box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.14);
     box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.14);
+    border: solid 2px white;
+}
+.cta-button-white:hover {
+    color: white;
+    background-color: transparent;
+    border: solid 2px white;
 }
 .cta-button-black-outline {
     display: inline-block;
@@ -320,9 +330,14 @@ footer #newsletter button{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 0.9rem;
-    color: black;
+    color: white;
+    background-color: black;
     margin: 2px;
     border: solid 2px black;
+}
+.cta-button-black-outline:hover {
+    color: black;
+    background-color: transparent;
 }
 #hamburger-nav {
     display: none;
