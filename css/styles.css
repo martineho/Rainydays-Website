@@ -204,11 +204,12 @@ h6 {
 }
 
 .parrallax {
-    height: 70vh;
+    height: 50vh;
     background-image: url(../images/reykjavik_parrallax.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 .stories-wrapper {
