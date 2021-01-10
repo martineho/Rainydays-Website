@@ -4,22 +4,23 @@ body {
 }
 
 #logo {
-    width: 100px;
+    width: 95px;
 }
-#navbar{
+nav {
     background-color: white;
     position: fixed;
     clear: both;
     width: 100vw;
+    top: 0;
 }
 .nav-logo {
-    margin: -8px 20px;
+    margin: 12px 5% 12px 5%;
     position: absolute;
 }
 .main-nav {
-    height: 35px;
-    margin-left: 10%;
-    margin-top: 2%;
+    height: 30px;
+    margin-left: 12%;
+    margin-top: 20px;
 }
 .navbar {
     display: inline-block;
@@ -28,13 +29,13 @@ body {
 .nav-item {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: black;
-    padding: 5px 10px;
+    padding: 5px 15px;
 }
 .header-search {
     float: right;
-    margin-right: 3%;
+    margin-right: 5%;
 }
 .nav-icon-menu {
     float: right;
@@ -47,18 +48,20 @@ body {
 .icon-item {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: black;
-    padding: 5px 10px;
+    padding: 5px 15px;
 }
-
-
+#profile-icon, #heart-icon, #cart-icon {
+    width: 20px;
+}
 
 .information-banner {
     background-color: #1548F7;
     height: 26px;
     width: 100vw;
     text-align: center;
+    margin-top: 65px;
 }
 .information-banner ul {
     list-style: none;
@@ -404,5 +407,4 @@ footer #newsletter button{
     #stitem-2, #stitem-3 {
         display: none;
     }
-}
 }
