@@ -11,29 +11,24 @@
 
     <body>
         <header>
-            <a href="index.html"><img id="logo" src="/images/logo.png" alt="logo"></a>
-
-            <nav class="navbar" aria-label="main-nav"> 
-                <ul> 
-                    <li><a href="men-home.html">Men</a></li>
-                    <li><a href="men-home.html">Women</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+            <nav id="navbar" aria-label="main-nav"> 
+                <a class="nav-logo" href="index.html"><img id="logo" src="../Rainydays-Website/images/logo.png" alt="logo"></a>
+                <ul class="main-nav"> 
+                    <li class="navbar"><a class="nav-item" href="men-home.html">Men</a></li>
+                    <li class="navbar"><a class="nav-item" href="men-home.html">Women</a></li>
+                    <li class="navbar"><a class="nav-item" href="about.html">About</a></li>
+                    <li class="navbar"><a class="nav-item" href="contact.html">Contact</a></li>
+                    <span class="header-search">
+                        <button>Search</button> 
+                        <input type="search" id="site-search" name="q" aria-label="Search through site content">
+                    </span>
+                    <span class="nav-icon-menu">
+                        <li class="nav-icon"><a class="icon-item" href="myaccount.html">profile</a></li>
+                        <li class="nav-icon"><a class="icon-item" href="wishlist.html">love</a></li>
+                        <li class="nav-icon"><a class="icon-item" href="cart.html">cart</a></li>
+                    </span>
                 </ul>
             </nav>
-
-            <div class="header-search">
-                <button>Search</button> 
-                <input type="search" id="site-search" name="q" aria-label="Search through site content">
-            </div>
-
-            <div class="nav-icon-menu">
-                <ul class="nav-icon">
-                    <li class="icon-item"><a href="myaccount.html">profile</a></li>
-                    <li class="icon-item"><a href="wishlist.html">love</a></li>
-                    <li class="icon-item"><a href="cart.html">cart</a></li>
-                </ul>
-            </div>
 
             <div class="information-banner">
                 <ul> 

@@ -2,9 +2,58 @@ body {
     padding: 0;
     margin: 0;
 }
+
 #logo {
     width: 100px;
 }
+#navbar{
+    background-color: white;
+    position: fixed;
+    clear: both;
+    width: 100vw;
+}
+.nav-logo {
+    margin: -8px 20px;
+    position: absolute;
+}
+.main-nav {
+    height: 35px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.navbar {
+    display: inline-block;
+    list-style: none;
+}
+.nav-item {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: black;
+    padding: 5px 10px;
+}
+.header-search {
+    float: right;
+    margin-right: 3%;
+}
+.nav-icon-menu {
+    float: right;
+    margin-right: 3%;
+}
+.nav-icon {
+    display: inline-block;
+    list-style: none;
+}
+.icon-item {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: black;
+    padding: 5px 10px;
+}
+
+
+
 .information-banner {
     background-color: #1548F7;
     height: 26px;
