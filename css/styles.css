@@ -52,7 +52,7 @@ nav {
     color: black;
     padding: 5px 15px;
 }
-#profile-icon, #heart-icon, #cart-icon {
+.profile-icon, .heart-icon, .cart-icon {
     width: 20px;
 }
 .header-search {
@@ -61,7 +61,7 @@ nav {
     padding-bottom: 3px;
     border-bottom: 2px black solid;
 } 
-#search-icon {
+.search-icon {
     width: 18px;
 }
 button {
