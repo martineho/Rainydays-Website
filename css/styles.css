@@ -413,6 +413,9 @@ footer #newsletter button{
 }
 }
 @media only screen and (max-width: 450px) {
+    .nav-icon-menu {
+        margin-top: -1%;
+    }
     .herotop {
         height: 80vh;
         background-position: center;
