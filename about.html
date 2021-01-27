@@ -11,40 +11,68 @@
 
     <body>
         <header>
-            <a href="index.html"><img id="logo" src="/images/logo.png" alt="logo"></a>
 
-            <nav class="navbar" aria-label="main-nav"> 
+            <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="hamburger-menu">
+
+            <ul class="nav-icon-menu">
+                <li class="nav-icon"><a class="icon-item" href="myaccount.html"><img class="profile-icon" src="images/profile-icon.svg" alt="profile-icon"></a></li>
+                <li class="nav-icon"><a class="icon-item" href="wishlist.html"><img class="heart-icon" src="images/heart-icon.svg" alt="heart-icon"></a></li>
+                <li class="nav-icon"><a class="icon-item" href="cart.html"><img class="cart-icon" src="images/cart-icon.svg" alt="cart-icon"></a></li>
+            </ul>
+
+            <div id="hamburger-nav">
                 <ul> 
-                    <li><a href="men-home.html">Men</a></li>
-                    <li><a href="men-home.html">Women</a></li>
-                    <li><a class="active" href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li ><a class="nav-item" href="">Men</a></li>
+                    <li ><a class="nav-item" href="">Women</a></li>
+                    <li ><a class="nav-item" href="">About</a></li>
+                    <li ><a class="nav-item" href="">Contact</a></li>
+                </ul>
+                <div class="searchbar">
+                    <button><img class="search-icon" src="images/search-icon.svg" alt="search-icon"></button> 
+                    <input 
+                    type="search" 
+                    class="site-search" 
+                    name="q" 
+                    aria-label="Search through site content"
+                    value="Search">
+                </div>
+            </div>
+
+
+            <nav id="navbar" aria-label="main-nav"> 
+                <a class="nav-logo" href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
+                <ul class="main-nav"> 
+                    <li class="navbar"><a class="nav-item" href="">Men</a></li>
+                    <li class="navbar"><a class="nav-item" href="">Women</a></li>
+                    <li class="navbar"><a class="nav-item" href="">About</a></li>
+                    <li class="navbar"><a class="nav-item" href="">Contact</a></li>
+            
+                    <li class="nav-icon-menu">
+                        <div class="nav-icon"><a class="icon-item" href=""><img class="profile-icon" src="images/profile-icon.svg" alt="profile-icon"></a></div>
+                        <div class="nav-icon"><a class="icon-item" href=""><img class="heart-icon" src="images/heart-icon.svg" alt="heart-icon"></a></div>
+                        <div class="nav-icon"><a class="icon-item" href=""><img class="cart-icon" src="images/cart-icon.svg" alt="cart-icon"></a></div>
+                    </li>
+                    <li class="header-search">
+                        <button><img class="search-icon" src="images/search-icon.svg" alt="search-icon"></button> 
+                        <input 
+                        type="search" 
+                        class="site-search" 
+                        name="q" 
+                        aria-label="Search through site content"
+                        value="Search">
+                    </li>
                 </ul>
             </nav>
 
-            <div class="header-search">
-                <button>Search</button> 
-                <input type="search" id="site-search" name="q" aria-label="Search through site content">
-            </div>
-
-            <div class="nav-icon-menu">
-                <ul class="nav-icon">
-                    <li class="icon-item"><a href="myaccount.html">profile</a></li>
-                    <li class="icon-item"><a href="wishlist.html">love</a></li>
-                    <li class="icon-item"><a href="cart.html">cart</a></li>
-                </ul>
-            </div>
-
             <div class="information-banner">
                 <ul> 
-                    <li>Free Shipping</li>
+                    <li>Free shipping above 1000 NOK</li>
                     <li>Free returns in Norway</li>
                     <li>5 years warranty</li>
                 </ul>
             </div>
         </header>
-
-
 
         <main> 
 
@@ -65,13 +93,20 @@
                 
             </section>
 
-            <section class="stories-wrapper">
-                <div class="container">
-                <h2>Latest Stories</h2>
-                <div class="container">
-                    <div class="wrapper">
-
+            <section class="stories container">
+                <h3>Latest Stories</h3>
+                <div class="stories-wrapper">
+                    <div id="stitem-1" class="stories-item">
+                   <img class="stories-img" alt="Camping in Jotunheimen" src="images/jotunheimen.jpg">
+                    <h6>Camping in Jotunheimen</h6>
                     </div>
+                    <div id="stitem-2" class="stories-item">
+                    <img class="stories-img" alt="Iceland" src="images/reykjavik.jpg">
+                    <h6>Rainydays in Iceland</h6>
+                    </div>
+                    <div id="stitem-3" class="stories-item">
+                    <img class="stories-img" alt="Lofoten Mountains" src="images/lofoten.jpg">
+                    <h6>Downhill in Lofoten</h6>
                 </div>
             </div>
             </section>
@@ -83,21 +118,42 @@
 
         <footer>
 
-            <div class="container">
+            <div class="footer container">
                 <div class="card">
-                    <img src="" alt="logo">
-                    <label>Subscribe to our newletter</label>
-                    <input type="email" id="subscribe-to" name="q" aria-label="subscribe to newletter"> 
-                    <button>Submit</button> 
+                    <img id="logo2" src="images/logo_white.png" alt="logo">
+                    <div id="newsletter">
+                    <label>Subscribe to our Newletter</label>
+                    <input  type="email" 
+                            id="subscribe-to" 
+                            name="q" 
+                            aria-label="subscribe to newletter"
+                            value="email@example.no"> 
+                    <button>Submit</button> </div>
                 </div>
-                <div class="card">
+                <div id="men" class="card">
+                    <h5>Men</h5>
+                    <ul>
+                        <li><a href="">Outdoor Activities</a></li>
+                        <li><a href="">Skiing</a></li>
+                        <li><a href="">Trekking</a></li>
+                    </ul>
+                </div>
+                <div id="women" class="card">
+                    <h5>Women</h5>
+                    <ul>
+                        <li><a href="">Outdoor Activities</a></li>
+                        <li><a href="">Skiing</a></li>
+                        <li><a href="">Trekking</a></li>
+                    </ul>
+                </div>
+                <div id="about2" class="card">
                     <h5>About</h5>
                     <ul>
                         <li><a href="">About Rainydays</a></li>
                         <li><a href="">Latest Stories</a></li>
                     </ul>
                 </div>
-                <div class="card">
+                <div id="contact2" class="card">
                     <h5>Contact</h5>
                     <ul>
                         <li><a href="">Customer Service</a></li>
@@ -107,10 +163,13 @@
                 </div>
             </div>
 
-            <div class="container">
-                <div class="card"><p>©2020 Rainydays, NO 000 000 000 MVA</p></div>
-                 <div class="card"><a href="">Terms and Conditions</a> <a href="">Cookies and Privacy</a></div>
-                <div class="card"> <a href="">ig</a> <a href="">f</a></div>
+            <div class="footer container">
+                <div id="some" class="card"> <a class="bottomtext" href="">Instagram</a> <a class="bottomtext" href="">Facebook</a></div>
+                 <div class="card"><a class="bottomtext" href="">Terms and Conditions</a></div>
+                <div class="card"><a class="bottomtext" href="">Cookies and Privacy</a></div>
+                <div class="card"></div>
+                <div class="card"><p id="copyright" class="bottomtext">©2020 Rainydays, NO 000 000</p></div>
+                
             </div>
 
         </footer>
