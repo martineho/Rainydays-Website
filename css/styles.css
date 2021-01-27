@@ -1,4 +1,5 @@
 body {
+    font-family: 'Raleway', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -10,7 +11,7 @@ nav {
     background-color: white;
     position: fixed;
     clear: both;
-    width: 100vw;
+    width: «100vw;
     top: 0;
 }
 .nav-logo {
@@ -27,7 +28,6 @@ nav {
     list-style: none;
 }
 .nav-item {
-    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 1.1rem;
     color: black;
@@ -46,7 +46,6 @@ nav {
     list-style: none;
 }
 .icon-item {
-    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 1.1rem;
     color: black;
@@ -98,7 +97,6 @@ input {
     display: inline-block;
     padding-left: 5%;
     padding-right: 5%;
-    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 0.7rem;
     color: white;
@@ -134,13 +132,11 @@ input {
 }
 
 h1 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 2rem;
 }
 
 h2 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 2.2rem;
 }
@@ -153,7 +149,6 @@ h2 {
 }
 
 h3 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 1.7rem;
 }
@@ -164,7 +159,6 @@ h4 {
     font-size: 1.2rem;
 }
 h5 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 1rem;
     text-decoration: underline;
@@ -172,7 +166,6 @@ h5 {
     margin: 0;
 }
 h6 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 1.1rem;
     text-align: left;
@@ -264,7 +257,6 @@ footer .bottomtext {
     padding: 0px 0px;
 }
 footer .card label {
-    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 0.8rem;
     color: white;
@@ -286,7 +278,6 @@ footer .card input {
 }
 footer #newsletter button{
     background-color: transparent;
-    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 0.6rem;
     color: white;
@@ -309,7 +300,6 @@ footer #newsletter button{
     border-radius: 7px;
     text-align: center;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 0.9rem;
     color: black;
@@ -331,7 +321,6 @@ footer #newsletter button{
     border-radius: 7px;
     text-align: center;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 0.9rem;
     color: white;
