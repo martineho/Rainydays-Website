@@ -10,34 +10,66 @@
 </head>
 
     <body>
-        <header>
-            <a href="index.html"><img id="logo" src="/images/logo.png" alt="logo"></a>
 
-            <nav class="navbar" aria-label="main-nav"> 
+        <header>
+
+            <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="hamburger-menu">
+
+            <ul class="nav-icon-menu">
+                <li class="nav-icon"><a class="icon-item" href="myaccount.html"><img class="profile-icon" src="images/profile-icon.svg" alt="profile-icon"></a></li>
+                <li class="nav-icon"><a class="icon-item" href="wishlist.html"><img class="heart-icon" src="images/heart-icon.svg" alt="heart-icon"></a></li>
+                <li class="nav-icon"><a class="icon-item" href="cart.html"><img class="cart-icon" src="images/cart-icon.svg" alt="cart-icon"></a></li>
+            </ul>
+            
+
+            <div id="hamburger-nav">
                 <ul> 
-                    <li><a class="active" href="men-home.html">Men</a></li>
-                    <li><a href="men-home.html">Women</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li ><a class="nav-item" href="">Men</a></li>
+                    <li ><a class="nav-item" href="">Women</a></li>
+                    <li ><a class="nav-item" href="about.html">About</a></li>
+                    <li ><a class="nav-item" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <nav id="navbar" aria-label="main-nav"> 
+                <a class="nav-logo" href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
+                <ul class="main-nav"> 
+                    <li class="navbar"><a class="nav-item" href="">Men</a></li>
+                    <li class="navbar"><a class="nav-item" href="">Women</a></li>
+                    <li class="navbar"><a class="nav-item" href="about.html">About</a></li>
+                    <li class="navbar"><a class="nav-item" href="contact.html">Contact</a></li>
+            
+                    <li class="nav-icon-menu">
+                        <div class="nav-icon"><a class="icon-item" href=""><img class="profile-icon" src="images/profile-icon.svg" alt="profile-icon"></a></div>
+                        <div class="nav-icon"><a class="icon-item" href=""><img class="heart-icon" src="images/heart-icon.svg" alt="heart-icon"></a></div>
+                        <div class="nav-icon"><a class="icon-item" href=""><img class="cart-icon" src="images/cart-icon.svg" alt="cart-icon"></a></div>
+                    </li>
+                    <li class="header-search">
+                        <button><img class="search-icon" src="images/search-icon.svg" alt="search-icon"></button> 
+                        <input 
+                        type="search" 
+                        class="site-search" 
+                        name="q" 
+                        aria-label="Search through site content"
+                        value="Search">
+                    </li>
                 </ul>
             </nav>
 
-            <div class="header-search">
-                <button>Search</button> 
-                <input type="search" id="site-search" name="q" aria-label="Search through site content">
-            </div>
-
-            <div class="nav-icon-menu">
-                <ul class="nav-icon">
-                    <li class="icon-item"><a href="myaccount.html">profile</a></li>
-                    <li class="icon-item"><a href="wishlist.html">love</a></li>
-                    <li class="icon-item"><a href="cart.html">cart</a></li>
+            <div class="information-banner">
+                <ul> 
+                    <li>Free shipping above 1000 NOK</li>
+                    <li>Free returns in Norway</li>
+                    <li>5 years warranty</li>
                 </ul>
             </div>
         </header>
+        
 
 
-
+        
         <main> 
 
             <section class="herotop-men">
@@ -67,65 +99,12 @@
                 </div>
             </section>
 
-            <section class="product table">
-                <div class="container">
-                    <div class="product">
-                        <div class="card">
-                            <div class="product-image"></div>
-                            <article class="product-colours">
-                                <a id="yellow">y</a>
-                                <a id="navy">n</a>
-                                <a id="green">g</a>
-                                <a id="red">r</a>
-                                <label>4 colours</label>
-                            </article>
-                            <article class="product-description">
-                                <p>Men's HIKE pro</p><span class="price">1300 NOK</span>
-                            </article>
-                        </div>
-                    </div>
-                    <a>browse more &#8964;</a>
-                </div>
-            </section>
 
         </main>
 
 
 
 
-        <footer>
-
-            <div class="container">
-                <div class="card">
-                    <img src="" alt="logo">
-                    <label>Subscribe to our newletter</label>
-                    <input type="email" id="subscribe-to" name="q" aria-label="subscribe to newletter"> 
-                    <button>Submit</button> 
-                </div>
-                <div class="card">
-                    <h5>About</h5>
-                    <ul>
-                        <li><a href="">About Rainydays</a></li>
-                        <li><a href="">Latest Stories</a></li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h5>Contact</h5>
-                    <ul>
-                        <li><a href="">Customer Service</a></li>
-                        <li><a href="">FAQ</a></li>
-                        <li><a href="">Contact form</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="card"><p>©2020 Rainydays, NO 000 000 000 MVA</p></div>
-                 <div class="card"><a href="">Terms and Conditions</a> <a href="">Cookies and Privacy</a></div>
-                <div class="card"> <a href="">ig</a> <a href="">f</a></div>
-            </div>
-
-        </footer>
 
 
     </body>
